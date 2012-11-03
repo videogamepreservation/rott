@@ -1,0 +1,54 @@
+;
+; Sample RTS script file
+; 3D Realms Entertainment
+;
+; The script file format is as follows
+;
+; The first name is the name of the RTS file.
+; The next 10 names are filenames of valid VOC or WAV files.
+; sound files have to be 8 or 16 bit mono sounds with no compression.
+; sound files can be recorded anywhere from 7 Khz to 44 Khz.
+;
+; The name of the RTS file
+;
+SAMPLE.RTS
+;
+; sound file 1
+;
+SOUND1.VOC
+;
+; sound file 2
+;
+SOUND2.WAV
+;
+; sound file 3
+;
+SOUND3.WAV
+;
+; sound file 4
+;
+SOUND4.VOC
+;
+; sound file 5
+;
+SOUND5.VOC
+;
+; sound file 6
+;
+SOUND6.WAV
+;
+; sound file 7
+;
+SOUND7.VOC
+;
+; sound file 8
+;
+SOUND8.WAV
+;
+; sound file 9
+;
+SOUND9.VOC
+;
+; sound file 10
+;
+SOUND10.WAV

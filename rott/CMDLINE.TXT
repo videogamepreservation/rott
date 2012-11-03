@@ -1,0 +1,75 @@
+
+ROTT.EXE
+========
+
+NOWAIT       go to menu, skip intro
+NOSOUND      no music no sound
+NOW          go immediately into game default difficulty default level 1
+DOPEFISH     Scott Head intro, random sounds in credits, burping while
+             caching, silly strings, eluder/deluder as scott's head,
+             silly death cam, silly menu sounds
+
+MAPSTATS     Print out map statistics to MAPDEBUG.TXT
+TILESTATS    Print out tile statistics to MAPDEBUG.TXT
+VER          Rott version number
+PAUSE        Pause after printing startup info
+SOUNDSETUP   Launch sound Setup WARP [level] Launch to any level (1 based)
+LEVELSIZE    compute memory needed for level
+SLOWDEATH    slow down death rotation
+QUIET        get rid of all start up text except for errors
+FILE
+FILE1        add external wads for graphic replacement
+FILE2
+NOJOYS       disable joystick test
+NOMOUSE      disable mouse test
+SPACEBALL    enable spaceball avenger
+CYBERMAN     enable cyberman
+ASSASSIN     enable wingman assassin
+NOECHO       turn off reverb effect
+DEMOEXIT     exit the game when demo is interrupted
+TIMELIMIT    play for a certain amount of time in seconds
+             once time is gone game ends (unlimited lives)
+             get more time by killing guards and picking up ankhs
+             must use MAXTIMELIMIT as well
+MAXTIMELIMIT the max time to count down from so if you keep killing
+             guards you cannot get an infinite amount of time
+             must use TIMELIMIT as well
+ENABLEVR     enable Virtual Reality support for HMD's (Head mounted disp)
+WARP         warp to a specific level 1 based level 1 is 1
+NET          Used by ROTTSER and ROTTIPX
+IS8250       Used by ROTTSER whether you have an 8250 or not
+TEDLEVEL     Ted stuff
+(DEV ONLY) MONO         enable mono-monitor support (Development only)
+(DEV ONLY) TRANSPORT    Warp to any x,y,angle in level (Development only)
+(DEV ONLY) SCREENSHOTS  get rid of screen title stuff (Development only)
+
+
+ROTTSER.EXE
+========
+
+VECTOR       interrupt vector with which to communicate with ROTT
+ANSWER       answer mode
+DIAL         dial mode
+PAUSE        pause before launching
+STATS        print out run time stats after ROTT returns
+PLAYER       0 - makes you the master
+             1 - makes you not the master
+             must be used on both systems with different values, to work
+             properly
+
+
+ROTTIPX.EXE
+========
+
+VECTOR       interrupt vector with which to communicate with ROTT
+PAUSE        pause before launching
+NODES        number of players in game
+SOCKET       network socket to use
+SERVER       specify this computer to be a server
+STANDALONE   specify this server to be standalone
+             else client on top of server
+MASTER       used by client to make yourself the master
+REMOTERIDICULE turn on remote ridicule support
+
+
+

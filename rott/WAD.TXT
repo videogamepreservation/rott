@@ -1,0 +1,82 @@
+The ROTT WAD Format
+-------------------
+
+        Most of you out there are probably very familiar with the WAD file
+format developed by Id Software.  We borrowed the format with their
+consent and use it for all the data in Rise of the Triad.
+
+        The WAD structure itself is identical to that of other WAD's,
+where the WAD header is as follows:
+
+typedef struct
+{
+	char	identification[4];
+	long	numlumps;
+	long	infotableofs;
+} wadinfo_t;
+
+and the WAD directory is made up of [numlumps] of:
+
+typedef struct
+{
+	long		filepos;
+	long		size;
+	char		name[8];
+} lumpinfo_t;
+
+
+ROTT Specific Data
+------------------
+
+WALLS - Walls are stored in the WAD between the two labels "WALLSTRT" and
+"WALLSTOP".  The format of each wall is a 4,096 block of data with no
+header.  The bitmaps are grabbed in vertical posts so that drawing in
+modex is more straight format.  All walls must be 64 x 64. The walls must
+be the first few lumps in the WAD.
+
+MASKED OBJECTS - Masked objects in the wad comprise all actors and
+sprites.  They can be found as weapons, objects, actors etc.  They use the
+following headers and structures:
+
+typedef struct
+{
+   short          origsize;         // the orig size of "grabbed" gfx
+   short          width;            // bounding box size
+   short          height;
+   short          leftoffset;       // pixels to the left of origin
+   short          topoffset;        // pixels above the origin
+   unsigned short collumnofs[320];  // only [width] used, the [0] is &collumnofs[width]
+} patch_t;
+
+These are extremely similar to the patches used in another game, except
+for the addition of the origsize parameter.
+
+typedef struct
+{
+   short origsize;         // the orig size of "grabbed" gfx
+   short width;            // bounding box size
+   short height;
+   short leftoffset;       // pixels to the left of origin
+   short topoffset;        // pixels above the origin
+   short translevel;
+   short collumnofs[320];  // only [width] used, the [0] is &collumnofs[width]
+} transpatch_t;
+
+Certain objects in the game like masked walls and touch plates will use
+the second type of patch which acts like a translucent patch.
+
+SKYS, FLOORS and CEILINGS - Skys are larger than the screen and are made
+up of two 256X200 grabs in posts similar to the walls.  The first grab
+represents the bottom part of the sky and the second part the top of the
+sky.  The skys are denoted by the labels SKYSTRT and SKYSTOP.  Floors and
+ceilings use the following structure:
+
+typedef struct
+{
+   short     width,height;
+   short     orgx,orgy;
+   byte     data;
+} lpic_t;
+
+They can be found between the labels UPDNSTRT and UPDNSTOP.
+

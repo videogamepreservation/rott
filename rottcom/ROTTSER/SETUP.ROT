@@ -1,0 +1,42 @@
+; Rise of the Triad Setup Configuration File
+;                    (c) 1994
+MODEMNAME           ~
+MODEMINITSTR        ~
+MODEMHANGUP         ~
+BAUDRATE            9600
+COMPORT             2
+IRQ                 ~
+UART                ~
+PULSE               NO
+AUTOMATICDIALOUT    ~
+REMOTESOUNDPATH     .
+PLAYERGRAPHICSPATH  .
+GAMELEVELPATH       .
+BATTLELEVELPATH     .
+CODENAME            ~
+NUMPLAYERS          2
+DEFAULT             0
+1.  ~ ~ 
+2.  ~ ~ 
+3.  ~ ~ 
+4.  ~ ~ 
+5.  ~ ~ 
+6.  ~ ~ 
+7.  ~ ~ 
+8.  ~ ~ 
+9.  ~ ~ 
+10. ~ ~ 
+11. ~ ~ 
+12. ~ ~ 
+13. ~ ~ 
+14. ~ ~ 
+1.  ~
+2.  ~
+3.  ~
+4.  ~
+5.  ~
+6.  ~
+7.  ~
+8.  ~
+9.  ~
+10. ~

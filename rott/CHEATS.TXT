@@ -1,0 +1,106 @@
+  DISPSTICK                // enable cheats
+  \ECC                     // enable cheats
+  SLACKER                  // three keys, more health
+  \BUM                     // three keys, more health
+  CHOJIN                   // normal god mode
+  \WWW                     // normal god mode
+  GOTO                     // warp
+  \GTL                     // warp
+  SIXTOYS                  // all keys, armor, 100% health
+  \GAI                     // all keys, armor, 100% health
+  TOOSAD                   // god mode powerup
+  \GOD                     // god mode powerup
+
+  // Register only
+  WOOF                     // dog mode powerup
+  \DOG                     // dog mode powerup
+  // end
+
+  FLYBOY                   // mercury mode powerup
+  \MER                     // mercury mode powerup
+  BADTRIP                  // shrooms mode powerup
+  \SHR                     // shrooms mode powerup
+  BOING                    // elasto mode powerup
+  \ELA                     // elasto mode powerup
+  GOOBERS                  // warp to level 1, start with pistol
+  \GOO                     // warp to level 1, start with pistol
+  WHACK                    // hurt player 10%
+  \OOF                     // hurt player 10%
+  SPEED                    // run fast all the time
+  \RFA                     // run fast all the time
+  PANIC                    // back to normal
+  \PAN                     // back to normal
+  DIMON                    // light diminishing on
+  \DON                     // light diminishing on
+  DIMOFF                   // light diminishing off
+  \DOF                     // light diminishing off
+  LONDON                   // fog on (0x00 - 0x80 minmax)
+  \FON                     // fog on (0x00 - 0x80 minmax)
+  NODNOL                   // fog off (0x80 - 0xFF minmax)
+  \FOF                     // fog off (0x80 - 0xFF minmax)
+  GOGATES                  // blow out of game
+  \L8R                     // blow out of game
+  GOARCH                   // end the current level
+  \ECL                     // end the current level
+  GOTA386                  // floor and ceiling off
+  \CON                     // floor and ceiling off
+  GOTA486                  // floor and ceiling on
+  \COF                     // floor and ceiling on
+  SHOOTME                  // bullet proof armor
+  \BAR                     // bullet proof armor
+  BURNME                   // fire proof armor
+  \FAR                     // fire proof armor
+  LUNGDUNG                 // gas mask
+  \GAR                     // gas mask
+  HUNTPACK                 // all keys, armor, 100% health, MP40,
+  \OFP                     // all keys, armor, 100% health, MP40,
+  86ME                     // kill player
+  \DIE                     // kill player
+  NEER                     // re-enter level
+  \REL                     // re-enter level
+  JOHNWOO                  // give double pistol
+  \GW2                     // give double pistol
+  PLUGME                   // give mp40
+  \GW3                     // give mp40
+  VANILLA                  // give bazooka
+  \GW4                     // give bazooka
+  HOTTIMES                 // give heatseeker
+  \GW5                     // give heatseeker
+  BOOZE                    // give drunk missile
+  \GW6                     // give drunk missile
+  FIREBOMB                 // give firebomb
+  \GW7                     // give firebomb
+  BONES                    // give firewall
+  \GW8                     // give firewall
+  SEEYA                    // give god hand
+  \GW9                     // give god hand
+
+  // Register Only
+  SPLIT                    // give split missile
+  \GWA                     // give split missile
+  KESOFDEATH               // give kes
+  \GWB                     // give kes
+  HOMERUN                  // give bat
+  \GWC                     // give bat
+  CUJO                     // give dog weapon
+  \GWD                     // give dog weapon
+  // end
+
+  RIDE                     // give MISSILE CAM
+  \CAM                     // give Missile Cam
+  WHERE                    // turn where am i on/off
+  \HUD                     // give hud
+  \FUN                     // Rotation fun
+  RECORD                   // Demo RECORD
+  STOP                     // Demo stop recording
+  PLAY                     // Demo Playback
+  \EKG                     // Engine Killing Gibs
+  MAESTRO                  // JukeBox
+  \LEE                     // JukeBox
+  CARTIER                  // Map Cheat
+  \MAP                     // Map Cheat
+  \YOU                     // Secret Message
+  HAVE                     // Secret Message
+  \NO                      // Secret Message
+  LIFE                     // Secret Message
+

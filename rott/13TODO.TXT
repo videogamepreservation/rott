@@ -1,0 +1,35 @@
+( ) NME does not always exit level upon killing him
+( ) Game locks when firing Darkstaff or Dog Mode at El Oscuro
+( ) Network server locks up when exiting net game
+( ) Stand( )alone server doesn't work consistently
+( ) Break out with error message if ROTT is run with no sound.rot
+( ) Quickload question should have (Y/N) on end
+( ) Phone number length needs to be lengthed.
+( ) Network packets need checksum word added to their packets
+( ) VR gear new mouse sub functions
+( ) Dog mode still locks up as well as some bat blast stuff
+( ) Fix Live Remote Ridicule
+( ) Wall can push you into platform so you fall down inside of it and be
+    stuck.
+( ) Hanging at menu after a few network/modem games
+( ) Hanging at warp menu prompt
+( ) Warp Menu: chose level, screen went black, some how still in level select
+( ) Unexpect Interrupt
+( ) Generat random levels and battle levels.  Choose alternate both.
+    New game End Game New Game Kaboom
+( ) Make snake heads hurt to touch (fixes snake trapping you)
+( ) Fix missiles not hitting enemy when standing face to face
+( ) lockup on snake with one head left
+( ) gamepad enabled before joystick enabled
+( ) bark blast under dog walls and stuff
+( ) config files saved in alternat RTS directory
+( ) people complaining about reconfiging joystick each time
+( ) Panic mapping over modem glass in 8 megs not in 4 megs
+( ) Voice credit for OverPatrol (CHuck) Lightning guard (william)
+
+MAP Stuff
+( ) level 1( )3 in random powerup crossroads room, two different wall types
+( ) Krist, if led outside of room, goes up disks, but can't go down them.
+  So he winds up running around sky.  Fix map to lock door so Krist cannot
+  come out...
+

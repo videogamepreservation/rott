@@ -1,0 +1,3 @@
+fli_main.c(50): Warning! W202: Symbol 'flic' has been defined, but not referenced
+fli_main.c(237): Warning! W202: Symbol 'data' has been defined, but not referenced
+fli_main.c(452): Warning! W202: Symbol 'machine' has been defined, but not referenced
